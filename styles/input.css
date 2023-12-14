@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1b3764;
+}
+header nav ul {
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+header nav ul a {
+  color: #f6f8fc;
+}
+header button {
+  border: 2px solid #ffca42;
+  background: #ffca42;
+  color: #1b3764;
+  font-family: "Cardo", serif;
+  font-size: 19px;
+  line-height: 28.5px;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+  padding: 18px 52px;
+}
+
+main {
+  padding-top: 100px;
+  background: #1b3764;
+  display: flex;
+}
+main section {
+  max-width: 650px;
+}
+main section h1 {
+  color: #ffffff;
+  font-family: "Cardo", serif;
+  font-size: 21px;
+  line-height: 36px;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+}
+main section h2 {
+  color: #ffffff;
+  font-family: "Cardo", serif;
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: 1.3px;
+}
+main section p {
+  color: #b4c7e7;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 28.5px;
+}
+main section div button:first-child {
+  border: 2px solid #ffca42;
+  background: #ffca42;
+  color: #1b3764;
+  font-family: "Cardo", serif;
+  font-size: 19px;
+  line-height: 28.5px;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+  padding: 18px 52px;
+}
+
+/*# sourceMappingURL=input.css.map */

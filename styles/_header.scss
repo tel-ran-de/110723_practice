@@ -1,0 +1,21 @@
+@use 'variables';
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: variables.$bg-color;
+
+  nav {
+    ul {
+      display: flex;
+      font-family: variables.$secondary-font;
+      a {
+        color: variables.$primary-nav-color;
+      }
+    }
+  }
+  button {
+    @include variables.yellowButton;
+  }
+}

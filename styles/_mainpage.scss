@@ -1,0 +1,47 @@
+@use 'variables';
+
+// обратиться к main и задавать бекграунд
+
+// main --> section
+// создать структуру html
+// начинаем с первого элемента стилизовать
+// используем переменные вложенносить и миксины
+
+// внутри секции максимальную ширину
+// начинаем стилизовать h1 используя переменные
+
+main {
+  padding-top: 100px;
+  background: variables.$bg-color;
+  display: flex;
+  section {
+    max-width: 650px;
+    h1 {
+      color: variables.$primary-color;
+      font-family: variables.$primary-font;
+      font-size: 21px;
+      line-height: 36px;
+      letter-spacing: 1.2px;
+      text-transform: capitalize;
+    }
+    h2 {
+      color: variables.$primary-color;
+      font-family: variables.$primary-font;
+      font-size: 64px;
+      line-height: 78px;
+      letter-spacing: 1.3px;
+    }
+
+    p {
+      color: variables.$secondary-color;
+      font-family: variables.$secondary-font;
+      font-size: 18px;
+      line-height: 28.5px;
+    }
+    div {
+      button:first-child {
+        @include variables.yellowButton;
+      }
+    }
+  }
+}

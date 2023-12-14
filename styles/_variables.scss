@@ -1,0 +1,25 @@
+$primary-font: 'Cardo', serif;
+$secondary-font: 'Inter', sans-serif;
+$primary-nav-color: #f6f8fc;
+$secondary-nav-color: #ffca42;
+$primary-color: #ffffff;
+$secondary-color: #b4c7e7;
+$bg-color: #1b3764;
+$bg-secondary-color: #ffffff;
+$primary-button-color: #1b3764;
+$primary-button-bg-color: #ffca42;
+
+// mixin зарезервированное слово
+// @mixin название миксина
+// миксин позволяет создать переиспользуемый кусок вертски
+@mixin yellowButton {
+  border: 2px solid $primary-button-bg-color;
+  background: $primary-button-bg-color;
+  color: $primary-button-color;
+  font-family: $primary-font;
+  font-size: 19px;
+  line-height: 28.5px;
+  letter-spacing: 0.57px;
+  text-transform: capitalize;
+  padding: 18px 52px;
+}
